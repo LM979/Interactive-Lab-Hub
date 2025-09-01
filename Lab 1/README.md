@@ -60,79 +60,147 @@ Labs are due on Mondays. Make sure this page is linked to on your main class hub
 
 ## Part A. Plan 
 
-To stage an interaction with your interactive device, think about:
-
-_Setting:_ Where is this interaction happening? (e.g., a jungle, the kitchen) When is it happening?
-
-_Players:_ Who is involved in the interaction? Who else is there? If you reflect on the design of current day interactive devices like the Amazon Alexa, it’s clear they didn’t take into account people who had roommates, or the presence of children. Think through all the people who are in the setting.
-
-_Activity:_ What is happening between the actors?
-
-_Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening the fridge). 
-
-The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
 
 \*\***Describe your setting, players, activity and goals here.**\*\*
 
-Storyboards are a tool for visually exploring a users interaction with a device. They are a fast and cheap method to understand user flow, and iterate on a design before attempting to build on it. Take some time to read through this explanation of [storyboarding in UX design](https://www.smashingmagazine.com/2017/10/storyboarding-ux-design/). Sketch seven storyboards of the interactions you are planning. **It does not need to be perfect**, but must get across the behavior of the interactive device and the other characters in the scene. 
+
+Please look at the notes from the group below: 
+
+Overview:
+
+A speculative wearable device designed to foster serendipitous connections between strangers by using a shared, colored light signal. This non-verbal cue indicates a shared characteristic, context, or goal, inviting conversation and community in public spaces.
+
+
+Players:
+
+The primary players are two or more strangers who have had no prior social interaction. They are brought together solely by their shared interests or situational context, as signified by the device. Their relationship is defined by a potential commonality, yet to be discovered.
+
+
+Activity:
+
+The activity is a shared, passive presence in a public or social context. The players are engaged in any individual activity that allows them to be in close proximity (e.g., waiting, traveling, attending an event). The device's activation is the signal that transforms this passive co-presence into a potential shared activity. They know they are in the presence of someone who shares a commonality, but the specific nature of that commonality remains a mystery to be uncovered.
+
+
+Goals:
+
+The device is designed to facilitate connection within specific contexts.
+
+Interaction:
+
+The interaction is mediated entirely by the device's behavior, which is designed around the core principles of autonomy, consent, and choice.
+The Signal: A colored light glows on the device, indicating its active state and its assigned context or characteristic.
+The Match: When in proximity to another device with a matching setting, both devices react simultaneously—their lights intensify, pulse, or change in a synchronized manner.
+The Choice: The reaction is an invitation, not an obligation. Players maintain full autonomy.
+They can choose to acknowledge the match and initiate a conversation to discover their shared commonality.
+They can choose to ignore it and continue with their activity, with the device returning to its passive state.
+The Conversation: The synchronized light serves as a natural icebreaker, generating conversation by providing a guaranteed shared topic to discuss ("I see our devices lit up; what did you set yours to?").
+
+
+
+AI Usage: Notes were amalgamated and synthesized from original text written by the author using DeepSeek-V3.1
+
+Original Prompt: “Clean up these notes to make them suitable for a document on a prototype device that lights up a specific color. If two people share a characteristic, both devices would light up when they’re in a shared context, like traveling to the same destination. The setting will be in public or social places with high foot traffic, creating opportunities for people to randomly encounter each other who share similar emotions or experiences. Here are the corresponding notes [Input Raw Notes]”
+
+**Setting, players, activity and goals**
+- Setting: Road running
+- Players: Runners / Running Enthusiasts
+- Activity: Marathon Training / Hobby Running
+- Goals: To match runners training for the same marathon or following the same route
+   ----
+- Setting: The Cafe
+- Players: Cafe customers
+- Activity: Miscellaneous / Consuming cafe food
+- Goals: To match people having same food likings.
+   ----
+- Setting: At the station
+- Players: Commuters
+- Activity: Waiting for the bus/tram/train/metro
+- Goals: To match people traveling to the same destination and are from the same organization.
 
 \*\***Include pictures of your storyboards here**\*\*
 
-Present your ideas to the other people in your breakout room (or in small groups). You can just get feedback from one another or you can work together on the other parts of the lab.
+Find links to the storyboards below: 
+https://drive.google.com/drive/folders/1MQSn-Jf8ZeOtSDXlfJ8KCrgV7cda9oXd?usp=drive_link
+
 
 \*\***Summarize feedback you got here.**\*\*
 
 
-## Part B. Act out the Interaction
+Reflection Notes 
 
-Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
+This product acts on the assumption that people want to have a conversation or engage only with people they have things in common with 
+We want a big enough screen for light to be visible
+Are the wings practical?
+
+
+## Part B. Act out the Interaction
 
 \*\***Are there things that seemed better on paper than acted out?**\*\*
 
-\*\***Are there new ideas that occur to you or your collaborator that come up from the acting?**\*\*
+From the interaction, we noticed that the screen needs to big enough for the light tobe visible to both parties. Should one of the parties be busy with something else, it can be easily overlooked. 
+Sometimes the recording of the inteaction felt a bit unnatural/forces, specially the one on the cafeteria. The reason why it felt unnatural is because normally strangers dont sit that close to one another
 
+
+\*\***Are there new ideas that occur to you or your collaborator that come up from the acting?**\*\*
+This device uses proximity as a factor, a question to tackle would be: what happens when you are in a crowded space and happen to have some sort of match 
+with more than one person? One solution I have is we queue the matches, they would be sorted from strongest to weakest match.  
+Another point to bear in mind is what should be the maximum distance for a match to happen. Going back to the cafeteria example, what happens if two strangers who have many things in common sit in complete opposite sides of a big cafeteria? Will they match? 
 
 ## Part C. Prototype the device
 
-You will be using your smartphone as a stand-in for the device you are prototyping. You will use the browser of your smart phone to act as a “light” and use a remote control interface to remotely change the light on that device. 
 
-Code for the "Tinkerbelle" tool, and instructions for setting up the server and your phone are [here](https://github.com/IRL-CT/tinkerbelle).
-
-We invented this tool for this lab! 
-
-If you run into technical issues with this tool, you can also use a light switch, dimmer, etc. that you can can manually or remotely control.
+Link to sketch images: 
+https://drive.google.com/drive/folders/1TzPc8G7yuiVgZA_lkC_cIgC9xjO2wdsv?usp=drive_link
 
 \*\***Give us feedback on Tinkerbelle.**\*\*
-
+Great tool, we were able to control multiple devices at the same time
 
 ## Part D. Wizard the device
-Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
+
+This is how we setup Tinkerbelle, link below 
+https://drive.google.com/file/d/1FQ5VyOZF2lZmyyvNrP85Ij5tZ8VhFULe/view?usp=drive_link
+
 
 \*\***Include your first attempts at recording the set-up video here.**\*\*
 
-Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
+Link to the process: 
+https://drive.google.com/drive/folders/19q8C_79dvAkOgz2fajBPu9Hno95FBWPa?usp=drive_link
 
 \*\***Show the follow-up work here.**\*\*
 
 
 ## Part E. Costume the device
 
-Only now should you start worrying about what the device should look like. Develop three costumes so that you can use your phone as this device.
 
 Think about the setting of the device: is the environment a place where the device could overheat? Is water a danger? Does it need to have bright colors in an emergency setting?
 
+Given that our device is a wearable and its meant to be practical for users to take with them in exercise demanding activites like running, hikes, etc.., the device should be water resistant. 
+
+
 \*\***Include sketches of what your devices might look like here.**\*\*
 
-\*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
+Link to the costume images:
+https://drive.google.com/drive/folders/1TzPc8G7yuiVgZA_lkC_cIgC9xjO2wdsv?usp=drive_link
 
+\*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
+We tried to factor in privacy. You would notice that some of the prototypes are meant to have power on/off buttons assuming that there would be times where people would not want to interact with anyone. In the case of the wristband, the use3r could tap twice to power on/off
+
+Regarding the necklace, that prototype might not be as effective given that there could be people who dont like wearing jewely. For instance, some men might not buy the prototype if it is in form of a necklace
 
 ## Part F. Record
 
 \*\***Take a video of your prototyped interaction.**\*\*
 
-\*\***Please indicate who you collaborated with on this Lab.**\*\*
-Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
+Link to the videos below: 
+https://drive.google.com/drive/folders/1FQZwSzHceeF0Ht7y9B7RYo7GGqdVWXSt?usp=drive_link
 
+\*\***Please indicate who you collaborated with on this Lab.**\*\*
+I collaborated with Thomas Knoepffler, Om Kamath, and Rajvi Ranjit Patil
+
+We all collaborated equally in the brainstorming session. Great shotout to Thomas and Rajvi who have great sketching skills and helped us with most of the story boards. Thomas also did great work with the video editing. 
+I created two, one with AI help - one I skeched manually, and the second one I made with chatGPT. The prompt used was: "My team and I are creating a wearable prototype that lights up whenever it detects someone nearby that has something in common with you. Give me a storyboard of this happening at a music festival and necklace for form of prototype"
+
+Om did great work with the recording and proposed the bird inspired design.
 
 
 # Staging Interaction, Part 2 
